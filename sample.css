@@ -1,0 +1,25 @@
+th{
+    background-color:lightgrey;
+    padding:10px;
+}
+
+p.solid {
+    border-style:solid;
+    border-width:2px;
+    border-color:black;
+}
+
+td{
+    padding:10px;
+}
+
+table{
+    margin:100px;
+}
+
+img{
+    border-style:dashed;
+    border-width:5px;
+    border-color:red;
+    padding:30px;
+}
