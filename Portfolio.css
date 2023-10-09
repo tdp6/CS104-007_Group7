@@ -1,0 +1,18 @@
+th{background-color: lightgray;
+    border:2px solid black;
+    padding: 10px 10px 10px 10px;}
+td{border:2px solid black;
+    padding: 10px 10px 10px 10px;}
+#Table{border: 2px solid black;
+        width: 60%;
+        margin: 100px 100px 100px 100px;}
+
+#Sign{height: 25%; width: 25%;
+border: 5px dashed red; padding: 30px 30px 30px 30px;}
+#CC{height: 250pt; width: 250pt;
+    border: 5px dashed red; padding: 30px 30px 30px 30px;}
+#CKB{height: 3in; width: 16/3in;
+    border: 5px dashed red; padding: 30px 30px 30px 30px;}
+
+
+
