@@ -1,0 +1,35 @@
+body {
+    background-color: purple;
+}
+h1{
+    color: lightblue;
+}
+p{
+    color: orange;
+}
+th{
+    background-color: lightgray;
+}
+table{
+    border: 2px solid black;
+    padding: 10px 0px 0px 10px;
+    margin: 100px 100px 100px 100px;
+}
+.img1{
+    height: 150px;
+    width: 150px;
+    border: 5px dashed red;
+    padding: 30px;
+}
+.img2{
+    height: 150px;
+    width: 150px;
+    border: 5px dashed red;
+    padding: 30px;
+}
+.img3{
+    height: 150px;
+    width: 150px;
+    border: 5px dashed red;
+    padding: 30px;
+}
