@@ -16,3 +16,11 @@ border: 5px dashed red; padding: 30px 30px 30px 30px;}
 
 
 
+#lab4{ text-align: center;
+    text-transform: uppercase;
+    font-family: monospace;
+    font-size: 25px;}
+
+#NJITList:hover{color: red;}
+#ArchList:visited{color: gray;}
+#FAID:active{color: orange;}
