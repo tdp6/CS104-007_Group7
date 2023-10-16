@@ -23,3 +23,24 @@ img{
     border-color:red;
     padding:30px;
 }
+p{
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+.p1{
+    font-family: "monospace";
+    font-size: 25px;
+}
+/* mouse over link */ 
+a:hover {
+    color:red;
+}
+/* visited */ 
+a:visited {
+    color:gray;
+}
+/* selected link */
+a:active {
+    color:orange;
+}
