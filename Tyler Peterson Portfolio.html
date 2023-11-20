@@ -150,6 +150,25 @@ NJIT Highlander Pipeline
 </div>
 
 
+<div>
+    <button id="changeTextBtn">
+        Click Me
+    </button>
+
+    <p id="WWPlace">
+        Everything is not what it seems
+    </p>
+</div>
+
+<script>
+    function changeInfo(){
+        document.getElementById('WWPlace').innerHTML = "Hello, JavaScript World"
+    }
+    document.getElementById('changeTextBtn').addEventListener("click", changeInfo)
+</script>
+
+
+
 <script>
     let num1 = 8
     let num2 = 1008
