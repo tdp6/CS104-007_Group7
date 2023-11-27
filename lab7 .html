@@ -121,6 +121,26 @@
         document.getElementById('changeTextBtn').addEventListener("click", changeinfo)
     </script>
 
+    <form name="login">
+        <input type="text"placeholder="Username" name="Username">
+        <input type="password" placeholder="password" name="password">
+        <input type="submit" onclick="return checkClear()">
+    </form>
+
+    <script>
+        function checkClear(){
+            let usern = document.forms['login']['Username'].value;
+            let passw = document.forms['login']['password'].value;
+            if(usern = '' || passw =''){
+                alert('Please complete all fields to continue')
+                return false}
+                else{setTimeout(sucess, 3000)}
+        }
+        function success(){
+            alert('Awesome Job!')
+        }
+    </script>
+
     <script>
     let num1 = 15 
     let num2 = 13
