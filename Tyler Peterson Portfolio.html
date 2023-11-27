@@ -167,6 +167,28 @@ NJIT Highlander Pipeline
     document.getElementById('changeTextBtn').addEventListener("click", changeInfo)
 </script>
 
+<br><br><br><br>
+
+<form name="login">
+    <input type="text" placeholder="Username" name="Username">
+    <input type="password" placeholder="Password" name="Password">
+    <input type="submit" onclick="return checkEmpty()">
+</form>
+
+<script>
+    function checkEmpty(){
+        let usern = document.forms['login']['Username'].value;
+        let passw = document.forms['login']['Password'].value;
+        if (usern == '' || passw == '' ){
+            alert('Please complete all fields to continue')
+        return false
+        }
+        else {setTimeout(success(), 3000)}
+    }
+    function success(){
+        alert('Awesome Job!')
+    }
+</script>
 
 
 <script>
