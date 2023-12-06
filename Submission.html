@@ -1,5 +1,8 @@
 <!DOCTYPE html>
 <html>
+    <link rel="mainpage" href="Main Web Page.html">
+<body>
+    
 
 <head>
     <title> Submission Page </title>
@@ -19,21 +22,44 @@
     </ul>
 </div>
 
-<form id="login">
+<form id="login" name="login">
     <label for="Username">Username</label>
-    <input type="text" placeholder="UCID">
+    <input type="text" placeholder="UCID" name="Username">
     <br>
     <label for="Password">Password</label>
-    <input type="password" placeholder="Password">
+    <input type="password" placeholder="Password" name="Password">
     <br>
-    <label for="Time">Time In Studio</label>
-    <input type="text" placeholder="[hour]:[minutes]">
+    <label for="Hours">Hours In Studio</label>
+    <input type="text" placeholder="[hour]" name="Hours">
+    <label for="Hours">Hours In Studio</label>
+    <input type="text" placeholder="[minute]" name="Minutes">
     <br>
     <input type="radio" name="Project"> EX1 - 2D to 3D <br>
     <input type="radio" name="Project"> EX2 - Silhouette to Volume <br>
     <input type="radio" name="Project"> EX3 - Volume Within a Volume <br>
-    <input type="radio" name="Project"> EX4 - Shelter
+    <input type="radio" name="Project"> EX4 - Shelter <br>
+    <input type="submit" onclick='return addTIme()'>
 
 </form>
+
+<script>
+    function addTime(){
+        let UCID = document.forms['login']['Username'].value; 
+        let password = document.forms['login']['Password'].value;
+        let hr = document.forms['login']['Hours'].value;
+        let min = document.forms['login']['Minutes'].value;
+
+        if(UCID == '' || password == '' || hr =='' || min == ''){
+            alert('Please complete all fields to add time to the  site')
+            return false
+        }
+        else{
+            updateLeaderboard()
+        }
+
+    }
+        </script>
+
+</body>
 
 </html>
